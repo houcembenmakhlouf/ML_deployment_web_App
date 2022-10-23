@@ -1,7 +1,6 @@
 # Project: Machine learning model deployment for web App
-![image](https://user-images.githubusercontent.com/45092804/197417249-798510f5-60f3-4020-ae5b-e903eb4a473a.png =250x250)
-<img src="[https://user-images.githubusercontent.com/link-to-your-image.png](https://user-images.githubusercontent.com/45092804/197417249-798510f5-60f3-4020-ae5b-e903eb4a473a.png)" width="200" />
 
+<img src="https://user-images.githubusercontent.com/45092804/197417249-798510f5-60f3-4020-ae5b-e903eb4a473a.png" width="200" />
 
 # Multiclass bot classification
 
