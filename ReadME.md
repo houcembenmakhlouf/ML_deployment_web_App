@@ -18,11 +18,11 @@ pip install -r requirements.txt
 ```
 To launch the project, we should:
 
-•Activate the environment via:
+•Activate the environment via
 ```
  venv\scripts\activate
 ```
-• Launch the server via:
+• Launch the server via
 ```
 python .\main.py
 ```
