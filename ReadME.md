@@ -69,7 +69,31 @@ A reduced version of the entire data is used to test the functionality of the al
  
 </center>
 
-# Multiclass bot classification
+To further test the asynchronous behaviour another file “send_requests.py” is added where we can pass a predefined number of requests in the same time. These requests will be treated one by one. The table below shows the time needed in seconds to get all the predicted results when passing a predefined number of requests using the original data set that was provided and an extended data set with 2000 users.
+
+<center>
+ 
+| Number of requests  | 5 | 10 | 15 |
+| ------------- | ------------- | ------------- | ------------- |
+| Original data | 5.44167089  | 10.82522678 | 17.76469802 |
+| Extended data | 125.926930  | 279.5530014 | 386.4041688 |
+ 
+</center>
+
+### two ways to pass the data
+
+• Using Curl which is used in command lines or scripts to transfer data. Here below an example of command is presented. To make this command line work I used “BufferedReader” which reads data from the object and kept in an internal buffer.
+• Using the terminal of the project when compiling the “send_requests.py” file. This method is more reliable in our case because more details and tests can be done in the future. Also, we can modify certain parameters like in our case, we wanted to test the time needed if we pass the request many times.
+
+## Perspectives and conclusions
+
+The project dealt with the subject of deployment of a machine learning model which classifies tweets based on their credibility. I have worked on data types, especially how to pre-process the data and make it ready for the processing phase. I understood better the asynchronous behaviour and I knew better how a flask Rest API works. As a perspective, I thought of building a user interface which I integrated a reduced version of it in the “main.py” component because I think it is always more user-friendly.
+
+```
+curl -i -X POST -H 'Content-Type: application/json' -F 'data=@/example_data.p' http://localhost:5000/process
+```
+
+# More details about Multiclass bot classification
 
 The multiclass bot classification model is used for classification of Twitter accounts. The model relies on 19 easy-to-explain attributes which have resulet in high explainability regarding what differenciates the different clusters.
 
