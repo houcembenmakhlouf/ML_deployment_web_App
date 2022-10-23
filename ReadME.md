@@ -44,12 +44,26 @@ The figure 2 shows the general circulation of the information in our project.
 
 
 ### input format
+
 Data type and formats are one of the essential parts when working on a machine learning algorithm. The Data should be clean as possible to minimize error; missing values should be filled out if there is any. Data should be reduced for proper data handling. The data type is very important to precise so that we don’t get any errors of compatibilities with the model.
 the general structure of our data is as follows:
 
 ```
 Dict{"user_key1":{ 'user_data':..., 'tweets':..., 'crawled_at':...}, "user_key2":{}...}
 ```
+### output format
+
+the model is going to classify the given users into one of 6 classes. For each user, we get predicted class and the description of that class.
+```
+{'prediction': 4, 'description': 'Accounts getting no confirmation or spread at all i.e., they are tweeting for themselves. No other accounts are interacting with accounts in this cluster in the term of sharing or liking their tweets. Accounts in this cluster show similarities to accounts used in influence operations.'}
+```
+### testing
+
+A reduced version of the entire data is used to test the functionality of the algorithm. After the testing part, the data set was multiplied into 1000 and 2000 users to test further the performance. To simplify the work, we took the first instance of data set and we applied the multiplication process. The table below shows the time needed to get the predicted results taking into consideration the data size:
+
+| Data set size (number of users)  | 5 | 1000 | 2000 |
+| ------------- | ------------- |
+| Time needed to get results (Seconds) | 0.04590916  | 7.29847478 | 16.06111311 |
 
 # Multiclass bot classification
 
