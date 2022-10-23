@@ -41,11 +41,13 @@ The figure 2 shows the general circulation of the information in our project.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45092804/197418177-ce90ee4b-dec1-4245-bcfb-4cf6fdead637.png" width="400" />
 </p>
+
 ### input format
 Data type and formats are one of the essential parts when working on a machine learning algorithm. The Data should be clean as possible to minimize error; missing values should be filled out if there is any. Data should be reduced for proper data handling. The data type is very important to precise so that we don’t get any errors of compatibilities with the model.
 the general structure of our data is as follows:
+
 ```
-Dict{"user_key1":{ 'user_data':..., 'tweets':..., 'crawled_at':...}, "user_key2":{}...]
+Dict{"user_key1":{ 'user_data':..., 'tweets':..., 'crawled_at':...}, "user_key2":{}...}
 ```
 
 # Multiclass bot classification
