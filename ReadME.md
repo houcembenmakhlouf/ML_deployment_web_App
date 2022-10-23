@@ -39,7 +39,7 @@ In our project there are mainly two big parts:
 The figure 2 shows the general circulation of the information in our project.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45092804/197418888-5965e8ea-6acf-45cd-b5f7-add1cff1d5fc" width="400" />
+<img src="https://user-images.githubusercontent.com/45092804/197418937-9348ded6-748e-4c4b-9417-3cd92e2cd268.png" width="400" />
 </p>
 
 
