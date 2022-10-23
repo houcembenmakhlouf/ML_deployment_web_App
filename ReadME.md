@@ -62,7 +62,7 @@ the model is going to classify the given users into one of 6 classes. For each u
 A reduced version of the entire data is used to test the functionality of the algorithm. After the testing part, the data set was multiplied into 1000 and 2000 users to test further the performance. To simplify the work, we took the first instance of data set and we applied the multiplication process. The table below shows the time needed to get the predicted results taking into consideration the data size:
 
 | Data set size (number of users)  | 5 | 1000 | 2000 |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 | Time needed to get results (Seconds) | 0.04590916  | 7.29847478 | 16.06111311 |
 
 # Multiclass bot classification
