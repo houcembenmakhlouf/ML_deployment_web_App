@@ -1,7 +1,7 @@
 # Project: Machine learning model deployment for web App
-
+<p align="center">
 <img src="https://user-images.githubusercontent.com/45092804/197417249-798510f5-60f3-4020-ae5b-e903eb4a473a.png" width="200" />
-
+</p>
 # Multiclass bot classification
 
 The multiclass bot classification model is used for classification of Twitter accounts. The model relies on 19 easy-to-explain attributes which have resulet in high explainability regarding what differenciates the different clusters.
