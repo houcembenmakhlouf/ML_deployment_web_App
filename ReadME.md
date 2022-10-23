@@ -83,15 +83,16 @@ To further test the asynchronous behaviour another file “send_requests.py” i
 ### two ways to pass the data
 
 • Using Curl which is used in command lines or scripts to transfer data. Here below an example of command is presented. To make this command line work I used “BufferedReader” which reads data from the object and kept in an internal buffer.
+```
+curl -i -X POST -H 'Content-Type: application/json' -F 'data=@/example_data.p' http://localhost:5000/process
+```
 • Using the terminal of the project when compiling the “send_requests.py” file. This method is more reliable in our case because more details and tests can be done in the future. Also, we can modify certain parameters like in our case, we wanted to test the time needed if we pass the request many times.
 
 ## Perspectives and conclusions
 
 The project dealt with the subject of deployment of a machine learning model which classifies tweets based on their credibility. I have worked on data types, especially how to pre-process the data and make it ready for the processing phase. I understood better the asynchronous behaviour and I knew better how a flask Rest API works. As a perspective, I thought of building a user interface which I integrated a reduced version of it in the “main.py” component because I think it is always more user-friendly.
 
-```
-curl -i -X POST -H 'Content-Type: application/json' -F 'data=@/example_data.p' http://localhost:5000/process
-```
+
 
 # More details about Multiclass bot classification
 
