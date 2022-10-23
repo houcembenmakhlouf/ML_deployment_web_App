@@ -66,6 +66,7 @@ A reduced version of the entire data is used to test the functionality of the al
 | ------------- | ------------- | ------------- | ------------- |
 | Time needed to get results (Seconds) | 0.04590916  | 7.29847478 | 16.06111311 |
 </center>
+
 # Multiclass bot classification
 
 The multiclass bot classification model is used for classification of Twitter accounts. The model relies on 19 easy-to-explain attributes which have resulet in high explainability regarding what differenciates the different clusters.
