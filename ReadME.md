@@ -12,6 +12,25 @@ After getting the repository of the project, we should create a python environme
 ```
 python3 -m venv /path/to/new/virtual/environment
 ```
+To install these requirements, we need to pass the command line
+```
+pip install -r requirements.txt
+```
+To launch the project, we should:
+
+•Activate the environment via:
+```
+ venv\scripts\activate
+```
+• Launch the server via:
+```
+python .\main.py
+```
+• Go under tests and begin sending requests
+```
+$ cd tests
+$ python .\send_requests.py
+```
 
 # Multiclass bot classification
 
