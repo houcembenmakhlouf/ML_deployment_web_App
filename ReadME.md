@@ -31,6 +31,15 @@ python .\main.py
 $ cd tests
 $ python .\send_requests.py
 ```
+## Project overview
+In our project there are mainly two big parts:
+• The model part: where the algorithm of our model is defined with its different features and parameters. The model is already trained over a set of data and we can use it directly. The Algorithm of this part is found under the file classify_account.py
+• The deployment part: This part is main purpose of this project and it consists of building a REST API using Flask. This python framework will allow us to create a deployment component that will interact with our machine learning model and the user. It will take that input data given as an external file from the user, process it and then pass it to model to get the predicted data as an output which will be visualized to the user. This part is developed in the file “main.py”.
+The figure 2 shows the general circulation of the information in our project.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45092804/197418177-ce90ee4b-dec1-4245-bcfb-4cf6fdead637.png" width="400" />
+</p>
 
 # Multiclass bot classification
 
