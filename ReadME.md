@@ -6,6 +6,13 @@
 ## Problem definition
 The deployment of machine learning models is the process of making models available in production where web applications, enterprise software and APIs can consume the trained model by providing new data points and generating predictions. And our main task in this project consists of integrating a tweets classification model into an existing production environment which can take in an input and return an output that can be used in making practical decisions to help the user figure out if the tweets are coming from a robot. Our project come with the importance of giving people more insight about the tweeted data.
 
+## Requirements and installations
+
+After getting the repository of the project, we should create a python environment so that we can install all packages we need for this project which are going to be installed as dependencies in our app, more precisely in package.json. To create our virtual environment, we can execute the command line after specifying the path where we want to create our environment.
+```
+python3 -m venv /path/to/new/virtual/environment
+```
+
 # Multiclass bot classification
 
 The multiclass bot classification model is used for classification of Twitter accounts. The model relies on 19 easy-to-explain attributes which have resulet in high explainability regarding what differenciates the different clusters.
